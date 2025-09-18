@@ -95,7 +95,7 @@
         </div>
 
         <!-- Shape part -->
-        <div class="w-[103%] absolute left-0 right-0">
+        <div class="absolute left-0 right-0">
             <img 
                 src="./images/hero shape.png"
                 class="w-full object-fill scale-x-100"
@@ -105,54 +105,89 @@
     </section>
 
     <!-- Feature Section -->
-     <section class="relative mt-[190px]">
-        <img src="./images/dotted row.jpg" loading="lazy" width="233" height="167">
-        <img src="./images/dotted row.jpg" loading="lazy" width="233" height="167">
+     <section class="relative mt-[190px] overflow-hidden">
 
-        <div>
+        <!-- images -->
+        <img src="./images/dotted row.jpg" loading="lazy"
+        width="233" height="167"
+        class="absolute -top-[8rem] left-[10rem]">
+
+        <img src="./images/dotted row.jpg" loading="lazy" 
+        width="233" height="167"
+        class="absolute -top-[3rem] right-0 inline-block rotate-180">
+
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
             <!-- heading -->
-            <h2>Accept payments, with Razorpay Payment Suite</h2>
-            <div></div>
+            <h2 class="font-mono text-center text-2xl leading-[1.2] font-bold">Accept payments with Razorpay Payment Suite</h2>
+            <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
 
             <!-- content box -->
-            <div>
+            <div class="w-full bg-white rounded-md flex p-10 h-[450px] border">
                 <!-- left section -->
-                <div>
-                    <h3>
+                <div class="flex flex-col justify-start w-1/2 space-y-10">
+                    <h3 class="font-mono leading-10 text-[28px] font-bold">
                         supercharge your bussiness with the all-power
                         <span class="text-blue-400">Payment Gateway</span> 
                     </h3>
-                    <ul>
-                        <li>
+                    <ul class="space-y-2">
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>100+ Payment Methods</span>
                         </li>
-                        <li>
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>Industry Leading Success Rate</span>
                         </li>
-                        <li>
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>Superior Checkout Experience</span>
                         </li>
-                        <li>
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>Easy to Integrate</span>
                         </li>
-                        <li>
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>Instant Settlements from 1 day</span>
                         </li>
-                        <li>
+                        <li class="flex items-center space-x-2">
+                            <!-- tick icon -->
+                            <img src="./images/tick.png"
+                            class="w-6 h-6"/>
                             <span>In-depth Repoting and Insights</span>
                         </li>
                     </ul>
-            <!-- for button and hyperlink -->
-                    <div>
-                        <button>Sign Up Now</button>
+                    <!-- for button and hyperlink -->
+                    <div class="flex flex-row items-center space-x-4">
+                        <button class="py-3 px-5 font-mono text-white bg-blue-400 border rounded-sm font-bold hover:bg-blue-500
+                        transition-all duration-200">Sign Up Now</button>
                         <!-- hyperlink -->
-                        <div>
-                            <a href="">Know More</a>
-                            <i></i>
+                        <div class="flex items-center cursor-pointer group space-x-2">
+                            <a href="#"
+                            class="font-bold text-blue-600 group-hover:text-gray-300 transition-all duration-200"
+                            >Know More</a>
+                            <!-- greater icon -->
+                            <img src="./images/right_10562206.png"
+                            class="w-5 h-5 hover:text-gray-300"
+                            />
                         </div>
                     </div>
                 </div>
-                <img src="./images/faeture.jpeg">
+                <div class="w-1/2 flex items-center justify-center">
+                    <img src="./images/faeture.jpeg"
+                    class="w-[900px]"
+                    />
+                </div>
             </div>
         </div>
 
